@@ -17,7 +17,7 @@ const ProductList = () => {
             <Link to="/Cart"  className=" text-[30px] self-end  relative w-10 box-content text-white m-0 "><FaCartArrowDown/></Link>
             <h1 className='my-10'>Product List</h1>
             <ul className='card_contatiner'>
-                
+                {/* Card Code */}
                     <div className='card rounded-lg'>
                         <h2 className="text-yellow-400 text-[20px]">{"Product_Name"}</h2>
                         <p>Price: { "Product Price"}</p>
