@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css'
 import { FaBeer, FaCaretSquareDown, FaCartArrowDown } from "react-icons/fa";
 
 
 
 
-import { CartContext } from '../context/CartContext.jsx';
 import { Link } from 'react-router-dom';
 
 
@@ -13,9 +12,6 @@ import { Link } from 'react-router-dom';
 const ProductList = () => {
     
    
-
-    const box=useContext(CartContext);
-    console.log(box.cartItems);
     return (
         <div className="flex flex-col">
             <Link to="/Cart"  className=" text-[30px] self-end  relative w-10 box-content text-white m-0 "><FaCartArrowDown/></Link>

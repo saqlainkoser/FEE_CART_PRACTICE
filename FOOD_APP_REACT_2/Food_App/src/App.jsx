@@ -3,7 +3,7 @@ import Cart from './Components/Cart'
 
 import './App.css'
 import Main_page from './Components/Main_page'
-import { CartContext } from './context/CartContext'
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,8 +22,7 @@ const router = createBrowserRouter([
 
 
 function App() {
-  const box = useContext(CartContext);
-  // console.log(box);
+ 
   return (    
     <>
        <RouterProvider router={router} />
